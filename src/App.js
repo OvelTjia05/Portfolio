@@ -3,7 +3,6 @@ import { Banner } from "./components/molecules/Banner";
 import { NavBar } from "./components/molecules/NavBar";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Skills } from "./components/molecules/Skills";
-import { Achievement } from "./components/molecules/Achievement";
 import { Profil } from "./components/molecules/Profil";
 import { Footer } from "./components/molecules/Footer";
 
