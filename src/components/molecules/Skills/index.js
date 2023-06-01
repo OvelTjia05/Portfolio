@@ -10,30 +10,9 @@ import MySQL from "../../../assets/img/mySQL.png";
 import NodeJS from "../../../assets/img/nodejs.png";
 import Express from "../../../assets/img/express.png";
 import MongoDB from "../../../assets/img/mongodb.png";
-
-import "react-multi-carousel/lib/styles.css";
 import colorSharp from "../../../assets/img/color-sharp.png";
 
 export const Skills = () => {
-  const responsive = {
-    superLargeDesktop: {
-      breakpoint: { max: 4000, min: 3000 },
-      items: 5,
-    },
-    desktop: {
-      breakpoint: { max: 3000, min: 1024 },
-      items: 3,
-    },
-    tablet: {
-      breakpoint: { max: 1024, min: 464 },
-      items: 2,
-    },
-    mobile: {
-      breakpoint: { max: 464, min: 0 },
-      items: 1,
-    },
-  };
-
   return (
     <section className="skill" id="skills">
       <div className="container">
@@ -41,7 +20,7 @@ export const Skills = () => {
           <div className="col-12">
             <div className="skill-bx wow zoomIn">
               <h2>Skills</h2>
-              <p>Ini adalah beberapa hal yang saya kuasai</p>
+              <p>Beberapa hal yang saya kuasai</p>
 
               <div className="list">
                 <div className="item">
