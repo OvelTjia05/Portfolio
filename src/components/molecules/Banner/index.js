@@ -63,7 +63,7 @@ export const Banner = () => {
                   }
                 >
                   <span className="tagline">
-                    Selamat Datang Di Portfolio saya
+                    Selamat Datang Di Portfolio Saya
                   </span>
                   <h1>
                     {`Hai... Saya adalah seorang`}{" "}

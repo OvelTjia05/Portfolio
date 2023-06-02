@@ -39,6 +39,13 @@ export const Profil = () => {
       imgUrl: SepatuWeb,
       url: "https://github.com/OvelTjia05/AIProject-Group10",
     },
+    {
+      title: "LV Music Video",
+      description:
+        "Web app untuk library lagu dan video yang terintegrasi dengan 2 API, lagunya bisa direview dengan mendengarkannya selama 30detik. Saya bertugas membuat web app musiknya.",
+      imgUrl: SepatuWeb,
+      url: "https://github.com/OvelTjia05/AIProject-Group10",
+    },
   ];
 
   return (
@@ -151,26 +158,23 @@ export const Profil = () => {
                         </Row>
                       </Tab.Pane>
                       <Tab.Pane eventKey="second">
-                        <table className="tabel">
-                          <tbody>
-                            <tr>
-                              <td>SD Negeri Inpres Maen di Wineru</td>
-                              <td>2007 - 2013</td>
-                            </tr>
-                            <tr>
-                              <td>SMP Advent Getsemani di Wineru</td>
-                              <td>2013 - 2016</td>
-                            </tr>
-                            <tr>
-                              <td>SMK Negeri 5 di Manado (Jurusan TKJ)</td>
-                              <td>2016 - 2019</td>
-                            </tr>
-                            <tr>
-                              <td>Universitas Klabat (Jurusan Informatika)</td>
-                              <td>2020 - Present</td>
-                            </tr>
-                          </tbody>
-                        </table>
+                        <div className="tabel">
+                          <div className="list1">
+                            <p>SMP Advent Getsemani di Wineru</p>
+                            <p>:</p>
+                            <p>2013 - 2016</p>
+                          </div>
+                          <div className="list1">
+                            <p>SMK Negeri 5 di Manado (Jurusan TKJ)</p>
+                            <p>:</p>
+                            <p>2016 - 2019</p>
+                          </div>
+                          <div className="list1">
+                            <p>Universitas Klabat (Jurusan Informatika)</p>
+                            <p>:</p>
+                            <p>2020 - Present</p>
+                          </div>
+                        </div>
                       </Tab.Pane>
                       <Tab.Pane eventKey="third">
                         <Row>
