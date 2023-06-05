@@ -3,6 +3,7 @@ import { ProjectCard } from "../ProjectCard";
 import Meanno from "../../../assets/img/meanno-web.png";
 import WUV from "../../../assets/img/wuv.png";
 import SepatuWeb from "../../../assets/img/sepatu-web.jpeg";
+import LVMusicVideo from "../../../assets/img/lvmusicvideo.png";
 import Gccf1 from "../../../assets/img/gccf1.png";
 import Gccf2 from "../../../assets/img/gccf2.png";
 import Gccf3 from "../../../assets/img/gccf3.png";
@@ -43,7 +44,7 @@ export const Profil = () => {
       title: "LV Music Video",
       description:
         "Web app untuk library lagu dan video yang terintegrasi dengan 2 API, lagunya bisa direview dengan mendengarkannya selama 30detik. Saya bertugas membuat web app musiknya.",
-      imgUrl: SepatuWeb,
+      imgUrl: LVMusicVideo,
       url: "https://github.com/OvelTjia05/AIProject-Group10",
     },
   ];
@@ -159,6 +160,11 @@ export const Profil = () => {
                       </Tab.Pane>
                       <Tab.Pane eventKey="second">
                         <div className="tabel">
+                          <div className="list1">
+                            <p>SD Negeri Inpres Maen di Wineru</p>
+                            <p>:</p>
+                            <p>2007 - 2013</p>
+                          </div>
                           <div className="list1">
                             <p>SMP Advent Getsemani di Wineru</p>
                             <p>:</p>
