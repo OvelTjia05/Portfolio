@@ -66,11 +66,10 @@ export const Banner = () => {
                     Selamat Datang Di Portfolio Saya
                   </span>
                   <h1>
-                    {`Hai... Saya adalah seorang`}{" "}
+                    {`Hai... Saya adalah seorang `}
                     <span
                       className="txt-rotate"
                       dataPeriod="1000"
-                      data-rotate='[ "Mahasiswa", "Network Engineer"]'
                     >
                       <span className="wrap">{text}</span>
                     </span>
